@@ -14,7 +14,7 @@ const getCountry = async () => {
   const Countries = await Response.json();
   console.log(Countries);
   Countries.forEach((country) => {
-    container.innerHTML += `
+    countries.innerHTML += `
   
   <li
           class="flex flex-col dark:bg-[#2B3945] rounded-md overflow-hidden hover:scale-105 "
