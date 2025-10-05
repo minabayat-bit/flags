@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
