@@ -17,7 +17,7 @@ const getCountry = async () => {
     countries.innerHTML += `
   
   <li
-          class="flex flex-col dark:bg-[#2B3945] rounded-md overflow-hidden hover:scale-105 "
+          class="flex flex-col dark:bg-[#2B3945] rounded-md overflow-hidden hover:scale-105 shadow-xl"
         >
           <img class="w-[260px] h-[160px]" src=${country.flags.png} />
           <div class="flex flex-col gap-4 p-8">
